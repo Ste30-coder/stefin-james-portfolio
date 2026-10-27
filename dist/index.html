@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Stefin James — Full Stack Software Developer building reliable web, mobile, and backend products.">
+  <meta name="theme-color" content="#09100d">
+  <title>Stefin James — Full Stack Developer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Stefin James home"><span>SJ</span><i></i></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="resume.pdf" download>Résumé <span>↓</span></a>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Available for full-stack opportunities</p>
+        <h1>I build the systems<br><em>behind the screen.</em></h1>
+        <p class="hero-lede">Full Stack Software Developer turning business requirements into secure APIs, responsive interfaces, and reliable product workflows.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">Explore my work <span>↘</span></a>
+          <a class="button text" href="mailto:stefinjames1@gmail.com">stefinjames1@gmail.com <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-system reveal" aria-label="Development workflow illustration">
+        <div class="terminal-bar"><span></span><span></span><span></span><b>system.map</b></div>
+        <div class="system-map">
+          <div class="node node-ui"><small>01</small><strong>Interfaces</strong><span>React · Next.js · RN</span></div>
+          <div class="connector c1"></div>
+          <div class="node node-api"><small>02</small><strong>Services</strong><span>Node.js · Express</span></div>
+          <div class="connector c2"></div>
+          <div class="node node-data"><small>03</small><strong>Data</strong><span>PostgreSQL · MongoDB</span></div>
+          <div class="pulse-ring"></div>
+        </div>
+        <div class="system-footer"><span>BUILD STATUS</span><strong><i></i> SHIPPED WITH CARE</strong></div>
+      </div>
+      <div class="hero-index" aria-hidden="true">01 / 05</div>
+    </section>
+
+    <section class="proof-strip" aria-label="Core capabilities">
+      <div><span>Web</span><strong>Next.js + React</strong></div>
+      <div><span>Mobile</span><strong>React Native</strong></div>
+      <div><span>Backend</span><strong>Node.js + Express</strong></div>
+      <div><span>Data</span><strong>PostgreSQL + MongoDB</strong></div>
+    </section>
+
+    <section class="work-section" id="work">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">Selected engineering work</p><h2>Products, not just pages.</h2></div>
+        <p>Case studies focused on the flows, boundaries, and decisions that make software useful.</p>
+      </div>
+
+      <article class="flagship reveal">
+        <div class="project-meta">
+          <span class="project-number">01</span>
+          <span class="project-label">Flagship project</span>
+          <span class="project-year">2026</span>
+        </div>
+        <div class="flagship-grid">
+          <div class="project-copy">
+            <p class="project-kicker">Mobile · Web · API</p>
+            <h3>BOB Service<br>Marketplace</h3>
+            <p class="project-summary">A service marketplace connecting customers and workers through job discovery, applications, offers, location-aware search, and real-time communication.</p>
+            <div class="ownership"><span>My scope</span><p>End-to-end feature development across the React Native client, admin experience, Express APIs, and MongoDB data layer.</p></div>
+            <ul class="project-points">
+              <li><b>33</b><span>mobile screens developed</span></li>
+              <li><b>09</b><span>admin views developed</span></li>
+              <li><b>80</b><span>REST API endpoints</span></li>
+            </ul>
+            <div class="tag-list"><span>React Native</span><span>Express</span><span>MongoDB</span><span>Socket.IO</span><span>JWT</span></div>
+          </div>
+          <div class="product-visual" aria-label="BOB product workflow diagram">
+            <div class="visual-top"><span>BOB / SERVICE FLOW</span><span class="live"><i></i> LIVE</span></div>
+            <div class="phone-shell">
+              <div class="phone-head"><span>9:41</span><b>BOB</b><span>● ●</span></div>
+              <div class="greeting"><small>GOOD MORNING</small><strong>Find help, nearby.</strong></div>
+              <div class="search-pill">⌕ &nbsp; What service do you need?</div>
+              <div class="category-row"><div>⌂<small>Home</small></div><div>⌁<small>Repair</small></div><div>✦<small>Cleaning</small></div></div>
+              <div class="job-card"><span class="job-icon">⌁</span><div><b>AC servicing</b><small>2.4 km · Today</small></div><strong>₹</strong></div>
+              <div class="job-card muted"><span class="job-icon">⌂</span><div><b>Home painting</b><small>4.1 km · Open</small></div><strong>₹</strong></div>
+              <div class="phone-nav"><span>⌂</span><span>⌕</span><b>＋</b><span>◫</span><span>○</span></div>
+            </div>
+            <div class="flow-card fc-one"><span>01</span><b>Post a job</b><small>Validated draft</small></div>
+            <div class="flow-card fc-two"><span>02</span><b>Match nearby</b><small>Geospatial search</small></div>
+            <div class="flow-card fc-three"><span>03</span><b>Work in real time</b><small>Offers · chat · alerts</small></div>
+          </div>
+        </div>
+        <div class="architecture">
+          <span>Screen</span><i>→</i><span>Query hook</span><i>→</i><span>REST API</span><i>→</i><span>Service</span><i>→</i><span>MongoDB</span>
+        </div>
+      </article>
+
+      <div class="team-projects">
+        <article class="project-card reveal">
+          <div class="project-meta"><span class="project-number">02</span><span class="project-label team">Team contribution</span></div>
+          <div class="card-orbit" aria-hidden="true"><div>5<small>PORTALS</small></div><span></span></div>
+          <p class="project-kicker">Commerce architecture</p>
+          <h3>Invigro</h3>
+          <p>A multi-portal commerce platform serving customer, dealer, administrator, partner, and salesman workflows from a shared Next.js application.</p>
+          <div class="contribution-box"><b>My contribution</b><p>Multi-portal routing, RBAC, server-side checkout, inventory and order flows, Razorpay webhook processing, and seven focused Zustand stores.</p></div>
+          <div class="tag-list"><span>Next.js</span><span>TypeScript</span><span>PostgreSQL</span><span>Drizzle</span><span>Zustand</span></div>
+        </article>
+
+        <article class="project-card scan reveal">
+          <div class="project-meta"><span class="project-number">03</span><span class="project-label team">Team contribution</span></div>
+          <div class="scan-window" aria-hidden="true"><div class="scan-ring r1"></div><div class="scan-ring r2"></div><div class="scan-line"></div><b>PET / CT</b><small>INTERFACE STUDY</small></div>
+          <p class="project-kicker">Healthcare web experience</p>
+          <h3>Swasti Scan</h3>
+          <p>A responsive PET/CT website and administration experience created for clear service presentation and operational access.</p>
+          <div class="contribution-box"><b>My contribution</b><p>Worked on selected website and admin-portal workflows, responsive screen review, deployed-page analysis, and design handoff preparation in Figma.</p></div>
+          <div class="tag-list"><span>Responsive UI</span><span>Admin portal</span><span>Netlify</span><span>Figma</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-number" aria-hidden="true">04</div>
+      <div class="about-copy reveal">
+        <p class="eyebrow">About me</p>
+        <h2>I enjoy the point where product needs meet technical systems.</h2>
+      </div>
+      <div class="about-detail reveal">
+        <p>I’m a full-stack developer based in Thiruvananthapuram, Kerala, with hands-on experience building production web and mobile applications. I translate requirements into interfaces, APIs, data models, and business logic—then stay with the feature through integration and debugging.</p>
+        <p>At Meantr Software, I work across customer, B2B, partner, sales, and administrative workflows while collaborating with engineers and stakeholders.</p>
+        <div class="about-links"><a href="https://github.com/Ste30-coder" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://linkedin.com/in/stefin-james-6355723aa" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+      </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+      <div class="section-heading reveal"><div><p class="eyebrow">Technical toolkit</p><h2>Across the stack.</h2></div><p>Tools I use to move from an interface idea to a functioning, secured application.</p></div>
+      <div class="skills-grid reveal">
+        <article><span>01</span><h3>Frontend</h3><p>JavaScript · TypeScript · React · Next.js · React Native · HTML · CSS · Tailwind</p></article>
+        <article><span>02</span><h3>Backend</h3><p>Node.js · Express · REST APIs · JWT · RBAC · Zod · Webhooks · Socket.IO</p></article>
+        <article><span>03</span><h3>Data</h3><p>PostgreSQL · MongoDB · MySQL · Drizzle ORM · Prisma · Schema design · Indexing</p></article>
+        <article><span>04</span><h3>Delivery</h3><p>Git · GitHub · Postman · Docker · Debugging · Refactoring · CI/CD fundamentals</p></article>
+      </div>
+      <div class="learning-grid reveal">
+        <div><small>2021 — 2025</small><b>B.Tech, Computer Science & Engineering</b><span>AI & ML · APJ Abdul Kalam Technological University</span></div>
+        <div><small>2025 — 2026</small><b>Python Full-Stack Development</b><span>Quest Innovative Solutions · Django, Flask, Angular, RxJS</span></div>
+        <div><small>Academic builds</small><b>Applied machine learning</b><span>Phishing URL detection API · YOLOv8 animal detection and alerts</span></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">Let’s build something useful</p>
+        <h2>Have a role or project<br>that needs a builder?</h2>
+        <a class="contact-email" href="mailto:stefinjames1@gmail.com">stefinjames1@gmail.com <span>↗</span></a>
+      </div>
+      <div class="contact-card reveal">
+        <span class="status-dot"></span>
+        <p>Open to full-stack software development opportunities and relocation.</p>
+        <div><a href="resume.pdf" download>Download résumé ↓</a><a href="tel:+918089552485">+91 80895 52485</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#top"><span>SJ</span><i></i></a><p>Designed around systems, built around people.</p><span>© 2026 Stefin James</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
